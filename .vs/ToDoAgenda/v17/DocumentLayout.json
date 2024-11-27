@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|c:\\users\\onur\\desktop\\todoagenda\\backend\\todoagenda.entities\\concrete\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|solutionrelative:backend\\todoagenda.entities\\concrete\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|c:\\users\\onur\\desktop\\todoagenda\\backend\\todoagenda.entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|solutionrelative:backend\\todoagenda.entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|c:\\users\\onur\\desktop\\todoagenda\\backend\\todoagenda.entities\\concrete\\definedtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|solutionrelative:backend\\todoagenda.entities\\concrete\\definedtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|c:\\users\\onur\\desktop\\todoagenda\\backend\\todoagenda.entities\\concrete\\importancelevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|solutionrelative:backend\\todoagenda.entities\\concrete\\importancelevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|c:\\users\\onur\\desktop\\todoagenda\\backend\\todoagenda.entities\\concrete\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|solutionrelative:backend\\todoagenda.entities\\concrete\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|c:\\users\\onur\\desktop\\todoagenda\\backend\\todoagenda.entities\\concrete\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|solutionrelative:backend\\todoagenda.entities\\concrete\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|c:\\users\\onur\\desktop\\todoagenda\\backend\\todoagenda.entities\\concrete\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DE2789-2209-486A-ADC7-63FBAD86C030}|Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj|solutionrelative:backend\\todoagenda.entities\\concrete\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 238,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +47,97 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\Setting.cs",
+              "RelativeDocumentMoniker": "Backend\\TODoAgenda.Entities\\Concrete\\Setting.cs",
+              "ToolTip": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\Setting.cs",
+              "RelativeToolTip": "Backend\\TODoAgenda.Entities\\Concrete\\Setting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T07:29:24.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DefinedTask.cs",
+              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\DefinedTask.cs",
+              "RelativeDocumentMoniker": "Backend\\TODoAgenda.Entities\\Concrete\\DefinedTask.cs",
+              "ToolTip": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\DefinedTask.cs",
+              "RelativeToolTip": "Backend\\TODoAgenda.Entities\\Concrete\\DefinedTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T07:27:33.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImportanceLevel.cs",
+              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\ImportanceLevel.cs",
+              "RelativeDocumentMoniker": "Backend\\TODoAgenda.Entities\\Concrete\\ImportanceLevel.cs",
+              "ToolTip": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\ImportanceLevel.cs",
+              "RelativeToolTip": "Backend\\TODoAgenda.Entities\\Concrete\\ImportanceLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T07:26:17.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\Result.cs",
+              "RelativeDocumentMoniker": "Backend\\TODoAgenda.Entities\\Concrete\\Result.cs",
+              "ToolTip": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\Result.cs",
+              "RelativeToolTip": "Backend\\TODoAgenda.Entities\\Concrete\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T07:23:07.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\Timer.cs",
+              "RelativeDocumentMoniker": "Backend\\TODoAgenda.Entities\\Concrete\\Timer.cs",
+              "ToolTip": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\Timer.cs",
+              "RelativeToolTip": "Backend\\TODoAgenda.Entities\\Concrete\\Timer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T07:16:02.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\Task.cs",
+              "RelativeDocumentMoniker": "Backend\\TODoAgenda.Entities\\Concrete\\Task.cs",
+              "ToolTip": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\Task.cs",
+              "RelativeToolTip": "Backend\\TODoAgenda.Entities\\Concrete\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T07:15:09.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\User.cs",
+              "RelativeDocumentMoniker": "Backend\\TODoAgenda.Entities\\Concrete\\User.cs",
+              "ToolTip": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\Concrete\\User.cs",
+              "RelativeToolTip": "Backend\\TODoAgenda.Entities\\Concrete\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T07:04:52.663Z",
+              "EditorCaption": ""
             }
           ]
         }
