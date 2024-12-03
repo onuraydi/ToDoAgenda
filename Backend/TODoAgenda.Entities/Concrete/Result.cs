@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ToDoAgenda.Core.Entities;
 
 namespace TODoAgenda.Entities.Concrete
 {
-    public class Result
+    public class Result:IEntity
     {
         public int ResultId { get; set; }
         public string ResultType { get; set; }  // string değiştirilecek ya da burası kaldırılacak

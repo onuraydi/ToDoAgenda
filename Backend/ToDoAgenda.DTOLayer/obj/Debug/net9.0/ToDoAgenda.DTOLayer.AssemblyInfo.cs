@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDoAgenda.DTOLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb44465687ff0c040cbf1ab74008d4530f38522c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a2525aecdb13e17c70fe4dbdacbda35e8930a01")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDoAgenda.DTOLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDoAgenda.DTOLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
