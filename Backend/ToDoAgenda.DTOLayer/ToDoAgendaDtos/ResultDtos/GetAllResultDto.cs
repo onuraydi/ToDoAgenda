@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ToDoAgenda.Core.Dtos;
 
 namespace ToDoAgenda.DTOLayer.ToDoAgendaDtos.ResultDtos
 {
-    public class GetAllResultDto
+    public class GetAllResultDto:IDto
     {
         // Gerek var mı ?
         public int ResultId { get; set; }

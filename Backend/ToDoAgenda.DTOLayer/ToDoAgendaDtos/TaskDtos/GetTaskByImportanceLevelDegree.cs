@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ToDoAgenda.Core.Dtos;
 
 namespace ToDoAgenda.DTOLayer.ToDoAgendaDtos.TaskDtos
 {
-    public class GetTaskByImportanceLevelDegree
+    public class GetTaskByImportanceLevelDegree:IDto
     {
         // önem derecesine göre görevleri listeleme
         public int TaskId { get; set; }

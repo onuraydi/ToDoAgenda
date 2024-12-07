@@ -11,4 +11,8 @@
     <Folder Include="ToDoAgendaDtos\SettingDtos\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoAgenda.Core\ToDoAgenda.Core.csproj" />
+  </ItemGroup>
+
 </Project>

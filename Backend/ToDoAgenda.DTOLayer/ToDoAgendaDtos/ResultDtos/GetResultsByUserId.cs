@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ToDoAgenda.Core.Dtos;
 
 namespace ToDoAgenda.DTOLayer.ToDoAgendaDtos.ResultDtos
 {
     // kullanıcıya göre sonuçLARı getirme
-    public class GetResultsByUserId
+    public class GetResultsByUserId: IDto
     {
         public int ResultId { get; set; }
         public string ResultType { get; set; }  // string değiştirilecek ya da burası kaldırılacak

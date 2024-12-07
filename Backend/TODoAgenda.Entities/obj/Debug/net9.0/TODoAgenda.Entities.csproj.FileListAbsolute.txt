@@ -1,0 +1,16 @@
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\bin\Debug\net9.0\TODoAgenda.Entities.deps.json
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\bin\Debug\net9.0\TODoAgenda.Entities.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\bin\Debug\net9.0\TODoAgenda.Entities.pdb
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\bin\Debug\net9.0\ToDoAgenda.Core.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\bin\Debug\net9.0\ToDoAgenda.Core.pdb
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\obj\Debug\net9.0\TODoAgenda.Entities.csproj.AssemblyReference.cache
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\obj\Debug\net9.0\TODoAgenda.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\obj\Debug\net9.0\TODoAgenda.Entities.AssemblyInfoInputs.cache
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\obj\Debug\net9.0\TODoAgenda.Entities.AssemblyInfo.cs
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\obj\Debug\net9.0\TODoAgenda.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\obj\Debug\net9.0\TODoAgenda.Entities.sourcelink.json
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\obj\Debug\net9.0\TODoAgen.238D9254.Up2Date
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\obj\Debug\net9.0\TODoAgenda.Entities.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\obj\Debug\net9.0\refint\TODoAgenda.Entities.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\obj\Debug\net9.0\TODoAgenda.Entities.pdb
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\TODoAgenda.Entities\obj\Debug\net9.0\ref\TODoAgenda.Entities.dll

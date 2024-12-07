@@ -1,0 +1,12 @@
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\bin\Debug\net9.0\ToDoAgenda.Business.deps.json
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\bin\Debug\net9.0\ToDoAgenda.Business.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\bin\Debug\net9.0\ToDoAgenda.Business.pdb
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\ToDoAgenda.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\ToDoAgenda.Business.AssemblyInfoInputs.cache
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\ToDoAgenda.Business.AssemblyInfo.cs
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\ToDoAgenda.Business.csproj.CoreCompileInputs.cache
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\ToDoAgenda.Business.sourcelink.json
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\ToDoAgenda.Business.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\refint\ToDoAgenda.Business.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\ToDoAgenda.Business.pdb
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\ref\ToDoAgenda.Business.dll

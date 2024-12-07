@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ToDoAgenda.Core.Dtos;
 
 namespace ToDoAgenda.DTOLayer.ToDoAgendaDtos.UserDtos
 {
-    public class AddUserDto
+    public class AddUserDto:IDto
     {
         public string UserName { get; set; }
         public string UserSurname { get; set; }

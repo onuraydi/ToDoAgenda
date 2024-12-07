@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "pslZc+Rb2E/QrI5JUXxcR08OrN42SCMWpxUhCVVLiTI=",
+  "Source": "ToDoAgenda.Api",
+  "BasePath": "_content/ToDoAgenda.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
