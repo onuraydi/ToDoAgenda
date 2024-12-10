@@ -5,12 +5,13 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using ToDoAgenda.Core.DataAccess.EntityRepositories;
 using ToDoAgenda.Core.Entities;
 
-namespace ToDoAgenda.Core.DataAccess.EntityFramework
+namespace ToDoAgenda.Core.DataAccess.EntityFrameworkCore.ForEntity
 {
-      // Burada async yapı yüzünden hatalar ya da performans kayıpları / artışları yaşanabilir bunu araşştır
-    public class EfCoreEntityRepositoryBase<TEntity, TContext> : IEntityRepository<TEntity> where TEntity : class, IEntity,new() where TContext : DbContext, new()
+    // Burada async yapı yüzünden hatalar ya da performans kayıpları / artışları yaşanabilir bunu araşştır
+    public class EfCoreEntityRepositoryBase<TEntity, TContext> : IEntityRepository<TEntity> where TEntity : class, IEntity, new() where TContext : DbContext, new()
     {
 
         public async Task<TEntity> Add(TEntity entity)

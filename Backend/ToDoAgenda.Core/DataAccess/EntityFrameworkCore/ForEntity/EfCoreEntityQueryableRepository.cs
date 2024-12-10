@@ -4,9 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ToDoAgenda.Core.DataAccess.EntityRepositories;
 using ToDoAgenda.Core.Entities;
 
-namespace ToDoAgenda.Core.DataAccess.EntityFramework
+namespace ToDoAgenda.Core.DataAccess.EntityFrameworkCore.ForEntity
 {
     public class EfCoreEntityQueryableRepository<T> : IEntityQueryableRepository<T> where T : class, IEntity, new()
     {
@@ -18,13 +19,13 @@ namespace ToDoAgenda.Core.DataAccess.EntityFramework
             _dbContext = dbContext;
         }
 
-        public IQueryable<T> Table => this.Entities;
+        public IQueryable<T> Table => Entities;
 
         protected virtual DbSet<T> Entities
         {
             get
             {
-                if(_entities == null)
+                if (_entities == null)
                 {
                     _entities = _dbContext.Set<T>();
                 }

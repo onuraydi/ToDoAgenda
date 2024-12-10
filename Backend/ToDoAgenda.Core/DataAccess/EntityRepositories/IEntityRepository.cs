@@ -7,11 +7,11 @@ using System.Text;
 using System.Threading.Tasks;
 using ToDoAgenda.Core.Entities;
 
-namespace ToDoAgenda.Core.DataAccess
+namespace ToDoAgenda.Core.DataAccess.EntityRepositories
 {
-    public interface IEntityRepository<T> where T: class, IEntity, new() 
+    public interface IEntityRepository<T> where T : class, IEntity, new()
     {
-        Task<List<T>> GetAll(Expression<Func<T,bool>> filter = null);
+        Task<List<T>> GetAll(Expression<Func<T, bool>> filter = null);
         Task<T> Get(Expression<Func<T, bool>> filter);
         Task<T> Add(T entity);
         Task<T> Update(T entity);

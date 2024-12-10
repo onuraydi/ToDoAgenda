@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ToDoAgenda.Core.DataAccess;
+using ToDoAgenda.Core.DataAccess.EntityRepositories;
 using Task = TODoAgenda.Entities.Concrete.Task;
 
-namespace ToDoAgenda.DataAccess.Abstract
+namespace ToDoAgenda.DataAccess.Abstract.ForEntity
 {
-    public interface ITaskDal:IEntityRepository<Task>
+    public interface ITaskDal : IEntityRepository<Task>
     {
     }
 }
