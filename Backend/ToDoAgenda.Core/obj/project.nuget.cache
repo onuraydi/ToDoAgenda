@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EmqSqxHVq6k=",
+  "dgSpecHash": "YGeoJFx/H38=",
   "success": true,
   "projectFilePath": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\ToDoAgenda.Core\\ToDoAgenda.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ONUR\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ONUR\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
     "C:\\Users\\ONUR\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0\\microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\ONUR\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0\\microsoft.entityframeworkcore.analyzers.9.0.0.nupkg.sha512",
