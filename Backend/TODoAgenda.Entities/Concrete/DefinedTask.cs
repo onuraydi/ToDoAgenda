@@ -9,6 +9,7 @@ namespace TODoAgenda.Entities.Concrete
 {
     public class DefinedTask:IEntity
     {
+        public int DefinedTaskId { get; set; }  // belki kaldırılabilir
         // ilişkiler ayarlandıktan sonra dönülecek
     }
 }

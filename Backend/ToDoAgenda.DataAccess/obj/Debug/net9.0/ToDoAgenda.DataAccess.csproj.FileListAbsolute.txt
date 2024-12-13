@@ -16,3 +16,5 @@ C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess\bin\Debug\net9.0\
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess\bin\Debug\net9.0\TODoAgenda.Entities.pdb
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess\obj\Debug\net9.0\ToDoAgenda.DataAccess.csproj.AssemblyReference.cache
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess\obj\Debug\net9.0\ToDoAgen.391978ED.Up2Date
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess\bin\Debug\net9.0\ToDoAgenda.DataAccess.runtimeconfig.json
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess\obj\Debug\net9.0\ToDoAgenda.DataAccess.genruntimeconfig.cache

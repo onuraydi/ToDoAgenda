@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Mappings\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoAgenda.DataAccess\ToDoAgenda.DataAccess.csproj" />
+    <ProjectReference Include="..\TODoAgenda.Entities\TODoAgenda.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

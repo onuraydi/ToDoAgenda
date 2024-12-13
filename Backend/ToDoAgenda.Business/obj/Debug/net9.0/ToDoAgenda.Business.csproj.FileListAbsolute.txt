@@ -10,3 +10,11 @@ C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\To
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\refint\ToDoAgenda.Business.dll
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\ToDoAgenda.Business.pdb
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\ref\ToDoAgenda.Business.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\ToDoAgenda.Business.csproj.AssemblyReference.cache
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\bin\Debug\net9.0\ToDoAgenda.Core.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\bin\Debug\net9.0\ToDoAgenda.DataAccess.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\bin\Debug\net9.0\TODoAgenda.Entities.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\bin\Debug\net9.0\ToDoAgenda.DataAccess.pdb
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\bin\Debug\net9.0\TODoAgenda.Entities.pdb
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\bin\Debug\net9.0\ToDoAgenda.Core.pdb
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business\obj\Debug\net9.0\ToDoAgen.3BEC0423.Up2Date

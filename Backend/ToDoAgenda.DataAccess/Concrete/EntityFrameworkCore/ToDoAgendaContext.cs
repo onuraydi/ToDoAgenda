@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,11 +13,27 @@ namespace ToDoAgenda.DataAccess.Concrete.EntityFrameworkCore
 {
     public class ToDoAgendaContext:DbContext
     {
-        public ToDoAgendaContext()
+        private readonly IConfiguration _configuration;
+
+        public ToDoAgendaContext()  // hata almamak için gerekli
         {
 
         }
-        public ToDoAgendaContext(DbContextOptions<ToDoAgendaContext> options) : base(options) { }
+
+        public ToDoAgendaContext(DbContextOptions<ToDoAgendaContext> options,IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if(!optionsBuilder.IsConfigured)
+            {
+                //var connectionString = _configuration.GetConnectionString("DefaultConnection");
+                optionsBuilder.UseNpgsql("Server = localhost; Port = 8000;Database = ToDoAgendaDb ; user Id = postgres; Password=123456Aa*;");
+            }
+        }
 
         public DbSet<User> Users { get; set; }
         public DbSet<Timer> Timers { get; set; }

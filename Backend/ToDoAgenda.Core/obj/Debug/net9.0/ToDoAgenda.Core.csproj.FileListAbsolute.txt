@@ -11,3 +11,5 @@ C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Core\obj\Debug\net9.0\ToDoAg
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Core\obj\Debug\net9.0\refint\ToDoAgenda.Core.dll
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Core\obj\Debug\net9.0\ToDoAgenda.Core.pdb
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Core\obj\Debug\net9.0\ref\ToDoAgenda.Core.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Core\bin\Debug\net9.0\ToDoAgenda.Core.runtimeconfig.json
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Core\obj\Debug\net9.0\ToDoAgenda.Core.genruntimeconfig.cache

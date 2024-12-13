@@ -10,6 +10,8 @@ public class AddUserTest
     [TestMethod]
     public async void Add_User()
     {
+
+        // Arrange
         EfCoreUserDal userDal = new EfCoreUserDal();
         User user = new User(); 
         user.UserId = 1;
@@ -17,7 +19,11 @@ public class AddUserTest
         user.UserSurname = "deneme";
         user.UserEmail = "deneme@gmail.com";
 
+        // Act
         await userDal.Add(user);
+        
         // Assert
+
+
     }
 }
