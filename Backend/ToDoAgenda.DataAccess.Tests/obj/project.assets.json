@@ -2320,6 +2320,20 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "ToDoAgenda.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "TODoAgenda.Entities": "1.0.0",
+          "ToDoAgenda.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ToDoAgenda.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDoAgenda.Business.dll": {}
+        }
+      },
       "ToDoAgenda.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -7170,6 +7184,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "ToDoAgenda.Business/1.0.0": {
+      "type": "project",
+      "path": "../ToDoAgenda.Business/ToDoAgenda.Business.csproj",
+      "msbuildProject": "../ToDoAgenda.Business/ToDoAgenda.Business.csproj"
+    },
     "ToDoAgenda.Core/1.0.0": {
       "type": "project",
       "path": "../ToDoAgenda.Core/ToDoAgenda.Core.csproj",
@@ -7194,6 +7213,7 @@
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.3.0",
       "NUnit3TestAdapter >= 4.6.0",
+      "ToDoAgenda.Business >= 1.0.0",
       "ToDoAgenda.DataAccess >= 1.0.0",
       "coverlet.collector >= 6.0.2"
     ]
@@ -7231,6 +7251,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\ToDoAgenda.Business\\ToDoAgenda.Business.csproj": {
+              "projectPath": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\ToDoAgenda.Business\\ToDoAgenda.Business.csproj"
+            },
             "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\ToDoAgenda.DataAccess\\ToDoAgenda.DataAccess.csproj": {
               "projectPath": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\ToDoAgenda.DataAccess\\ToDoAgenda.DataAccess.csproj"
             }

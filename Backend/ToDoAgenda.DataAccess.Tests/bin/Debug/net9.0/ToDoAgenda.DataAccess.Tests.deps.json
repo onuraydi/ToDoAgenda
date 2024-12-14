@@ -14,6 +14,7 @@
           "NUnit": "4.2.2",
           "NUnit.Analyzers": "4.3.0",
           "NUnit3TestAdapter": "4.6.0",
+          "ToDoAgenda.Business": "1.0.0",
           "ToDoAgenda.DataAccess": "1.0.0",
           "coverlet.collector": "6.0.2",
           "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions": "14.0.0.0"
@@ -1476,6 +1477,18 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "ToDoAgenda.Business/1.0.0": {
+        "dependencies": {
+          "TODoAgenda.Entities": "1.0.0",
+          "ToDoAgenda.DataAccess": "1.0.0"
+        },
+        "runtime": {
+          "ToDoAgenda.Business.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "ToDoAgenda.Core/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
@@ -2309,6 +2322,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "ToDoAgenda.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "ToDoAgenda.Core/1.0.0": {
       "type": "project",

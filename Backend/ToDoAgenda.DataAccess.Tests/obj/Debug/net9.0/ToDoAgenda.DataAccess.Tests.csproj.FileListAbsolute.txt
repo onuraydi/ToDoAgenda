@@ -202,3 +202,5 @@ C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\n
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\tr\Microsoft.Testing.Platform.MSBuild.resources.dll
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\zh-Hans\Microsoft.Testing.Platform.MSBuild.resources.dll
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\zh-Hant\Microsoft.Testing.Platform.MSBuild.resources.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\ToDoAgenda.Business.dll
+C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\ToDoAgenda.Business.pdb
