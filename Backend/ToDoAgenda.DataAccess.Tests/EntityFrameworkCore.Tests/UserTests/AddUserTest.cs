@@ -28,13 +28,12 @@ public class AddUserTest
         // Assert
         var items = await userDal.GetAll();
 
-        // Kullanýcýnýn özelliklerini karþýlaþtýrarak doðrulama yapýyoruz
         var addedUser = items.FirstOrDefault(u => u.UserEmail == user.UserEmail);
-        Assert.IsNotNull(addedUser); // Kullanýcý eklenmiþ olmalý
-        Assert.AreEqual(user.UserName, addedUser.UserName); // Ýsimler eþit mi?
-        Assert.AreEqual(user.UserSurname, addedUser.UserSurname); // Soyad eþit mi?
-        Assert.AreEqual(user.UserEmail, addedUser.UserEmail); // E-mail eþit mi?
-        Assert.AreEqual(1, items.Count); // Listede sadece 1 kullanýcý olmalý
+        Assert.IsNotNull(addedUser); 
+        Assert.AreEqual(user.UserName, addedUser.UserName); 
+        Assert.AreEqual(user.UserSurname, addedUser.UserSurname); 
+        Assert.AreEqual(user.UserEmail, addedUser.UserEmail); 
+        Assert.AreEqual(1, items.Count); 
     }
 
 }
