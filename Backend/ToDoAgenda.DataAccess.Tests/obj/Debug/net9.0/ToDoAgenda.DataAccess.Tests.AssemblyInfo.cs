@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDoAgenda.DataAccess.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0ee1d9214f1463027f57979cf24112fd9b2ead3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40b7cc40055eb06797bf257dc6b75128c460c2b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDoAgenda.DataAccess.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDoAgenda.DataAccess.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
