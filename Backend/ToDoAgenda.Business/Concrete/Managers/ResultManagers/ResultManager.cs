@@ -27,7 +27,7 @@ namespace ToDoAgenda.Business.Concrete.Managers.ResultManagers
             return await _resultDal.Add(result);
         }
 
-        public async Task DeleteById(Result result)
+        public async Task Delete(Result result)
         {
             await _resultDal.Delete(result);
         }

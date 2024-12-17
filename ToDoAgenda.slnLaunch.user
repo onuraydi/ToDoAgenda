@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj",
+        "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "start",
+    "Projects": [
+      {
+        "Path": "Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Backend\\ToDoAgenda.DataAccess\\ToDoAgenda.DataAccess.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Backend\\ToDoAgenda.Business\\ToDoAgenda.Business.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Backend\\ToDoAgenda.Core\\ToDoAgenda.Core.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Backend\\ToDoAgenda.Api\\ToDoAgenda.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Backend\\ToDoAgenda.Business.Tests\\ToDoAgenda.Business.Tests.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Backend\\ToDoAgenda.DataAccess.Tests\\ToDoAgenda.DataAccess.Tests.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

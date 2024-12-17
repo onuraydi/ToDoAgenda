@@ -15,6 +15,6 @@ namespace ToDoAgenda.Business.Abstract.ResutlServices
         //Task<Result> GetByResultType(string name);   // diğer operasyonlar sonraki iş
         Task<Result> Add(Result result);
         Task<Result> Update(Result result);
-        Task DeleteById(Result result);
+        Task Delete(Result result);
     }
 }

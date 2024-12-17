@@ -1,13 +1,25 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>exe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoAgenda.Business\ToDoAgenda.Business.csproj" />
+    <ProjectReference Include="..\ToDoAgenda.Core\ToDoAgenda.Core.csproj" />
+    <ProjectReference Include="..\ToDoAgenda.DataAccess\ToDoAgenda.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

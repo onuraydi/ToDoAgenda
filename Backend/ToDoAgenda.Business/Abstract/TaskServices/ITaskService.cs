@@ -11,7 +11,7 @@ namespace ToDoAgenda.Business.Abstract.TaskServices
     {
         Task<List<Task>> GetAll();
         Task<Task> GetById(int id);
-        Task<Task> GetByName(string name);
+        //Task<Task> GetByName(string name);
         Task<Task> Add(Task task);
         Task<Task> Update(Task task);
         System.Threading.Tasks.Task Delete(Task task);
