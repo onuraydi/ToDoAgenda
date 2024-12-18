@@ -1,12 +1,17 @@
 using ToDoAgenda.Business.Abstract.UserServices;
 using ToDoAgenda.Business.Concrete.Managers.UserManager;
+using ToDoAgenda.DataAccess.Abstract.ForEntity;
+using ToDoAgenda.DataAccess.Concrete.EntityFrameworkCore.ForEntity;
+using AutoMapper;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 builder.Services.AddControllers();
 
+builder.Services.AddScoped<IUserDal, EfCoreUserDal>();
 builder.Services.AddScoped<IUserService, UserManager>();
 builder.Services.AddOpenApi();
 
