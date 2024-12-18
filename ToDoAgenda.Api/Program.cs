@@ -3,6 +3,18 @@ using ToDoAgenda.Business.Concrete.Managers.UserManager;
 using ToDoAgenda.DataAccess.Abstract.ForEntity;
 using ToDoAgenda.DataAccess.Concrete.EntityFrameworkCore.ForEntity;
 using AutoMapper;
+using ToDoAgenda.Business.Abstract.TimerServices;
+using ToDoAgenda.Business.Concrete.Managers.TimerManagers;
+using ToDoAgenda.Business.Abstract.TaskServices;
+using ToDoAgenda.Business.Concrete.Managers.TaskManagers;
+using ToDoAgenda.Business.Abstract.SettingServices;
+using ToDoAgenda.Business.Concrete.Managers.SettingManagers;
+using ToDoAgenda.Business.Abstract.ResutlServices;
+using ToDoAgenda.Business.Concrete.Managers.ResultManagers;
+using ToDoAgenda.Business.Abstract.ImportanceLevelServices;
+using ToDoAgenda.Business.Concrete.Managers.ImportanceLevelManagers;
+using ToDoAgenda.Business.Abstract.DefinedTaskServices;
+using ToDoAgenda.Business.Concrete.Managers.DefinedTaskManagers;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,8 +23,33 @@ builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 builder.Services.AddControllers();
 
+
+// Dependency injeciton ile farklý birþeyler yapýlabilir mi araþtýr ve uygula
+
 builder.Services.AddScoped<IUserDal, EfCoreUserDal>();
 builder.Services.AddScoped<IUserService, UserManager>();
+
+builder.Services.AddScoped<ITimerDal, EfCoreTimerDal>();
+builder.Services.AddScoped<ITimerService, TimerManager>();
+
+builder.Services.AddScoped<ITaskDal, EfCoreTaskDal>();
+builder.Services.AddScoped<ITaskService, TaskManager>();
+
+builder.Services.AddScoped<ISettingDal, EfCoreSettingDal>();
+builder.Services.AddScoped<ISettingService, SettingManager>();
+
+builder.Services.AddScoped<IResultDal, EfCoreResultDal>();
+builder.Services.AddScoped<IResultService,ResultManager>();
+
+builder.Services.AddScoped<IImportanceLevelDal, EfCoreImportanceLevelDal>();
+builder.Services.AddScoped<IImportanceLevelService, ImportanceLevelManager>();
+
+builder.Services.AddScoped<IDefinedTaskDal, EfCoreDefinedTaskDal>();
+builder.Services.AddScoped<IDefinedTaskService, DefinedTaskManager>();
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+
 builder.Services.AddOpenApi();
 
 builder.Services.AddEndpointsApiExplorer();
