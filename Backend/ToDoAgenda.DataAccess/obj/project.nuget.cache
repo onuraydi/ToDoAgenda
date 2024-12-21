@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0XWzD/5AO58=",
+  "dgSpecHash": "4rh+iPkyPvs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\ToDoAgenda.DataAccess\\ToDoAgenda.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\ONUR\\Desktop\\CurrentProjects\\ToDoAgenda\\Backend\\ToDoAgenda.DataAccess\\ToDoAgenda.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ONUR\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ONUR\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WfucX27GT6U=",
+  "dgSpecHash": "/hJ5unZ1zVI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\Backend\\ToDoAgenda.Business.Tests\\ToDoAgenda.Business.Tests.csproj",
+  "projectFilePath": "C:\\Users\\ONUR\\Desktop\\CurrentProjects\\ToDoAgenda\\Backend\\ToDoAgenda.Business.Tests\\ToDoAgenda.Business.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ONUR\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\ONUR\\.nuget\\packages\\microsoft.codecoverage\\17.11.1\\microsoft.codecoverage.17.11.1.nupkg.sha512",

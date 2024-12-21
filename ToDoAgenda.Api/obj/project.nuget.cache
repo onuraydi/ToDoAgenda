@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/MvYhrBZCVU=",
+  "dgSpecHash": "qSoxel5pipg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ONUR\\Desktop\\ToDoAgenda\\ToDoAgenda.Api\\ToDoAgenda.Api.csproj",
+  "projectFilePath": "C:\\Users\\ONUR\\Desktop\\CurrentProjects\\ToDoAgenda\\ToDoAgenda.Api\\ToDoAgenda.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ONUR\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ONUR\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
