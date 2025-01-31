@@ -41,13 +41,13 @@ namespace ToDoAgenda.Business.Concrete.Managers.TaskManagers
 
         public async Task<Task> GetById(int id)
         {
-            return await _taskDal.Get(x => x.TaskId == id);
+            return await _taskDal.GetWithAllDetail(x => x.TaskId == id);
         }
 
-        public async Task<Task> GetByName(string name)
-        {
-            return await _taskDal.Get(x => x.TaskName == name);
-        }
+        //public async Task<Task> GetByName(string name)
+        //{
+        //    return await _taskDal.Get(x => x.TaskName == name);
+        //}
 
         public async Task<Task> Update(Task task)
         {

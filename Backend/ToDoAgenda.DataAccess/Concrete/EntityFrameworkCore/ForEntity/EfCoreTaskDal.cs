@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using ToDoAgenda.Core.DataAccess.EntityFrameworkCore.ForEntity;
@@ -32,6 +33,15 @@ namespace ToDoAgenda.DataAccess.Concrete.EntityFrameworkCore.ForEntity
                 .Include(t => t.ImportanceLevel)
                 .AsNoTracking()
                 .ToListAsync();
+        }
+
+        public async Task<Task> GetWithAllDetail(Expression<Func<Task, bool>> filter)
+        {
+            return await _context.Tasks
+                .Include(t => t.Timer)
+                .Include(t => t.Result)
+                .Include(t => t.ImportanceLevel)
+                .AsNoTracking().SingleOrDefaultAsync(filter);
         }
     }
 }
