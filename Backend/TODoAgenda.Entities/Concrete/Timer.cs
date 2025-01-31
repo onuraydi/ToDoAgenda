@@ -12,5 +12,6 @@ namespace TODoAgenda.Entities.Concrete
         public int TimerId { get; set; }
         public TimeSpan targetTime { get; set; }
         public TimeSpan CompleteTime { get; set; }
+        //public Task Task { get; set; }
     }
 }

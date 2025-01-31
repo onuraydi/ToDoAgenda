@@ -25,13 +25,12 @@ namespace ToDoAgenda.DataAccess.Concrete.EntityFrameworkCore
             _configuration = configuration;
         }
 
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if(!optionsBuilder.IsConfigured)
+            if (!optionsBuilder.IsConfigured)
             {
                 //var connectionString = _configuration.GetConnectionString("DefaultConnection");
-                optionsBuilder.UseNpgsql("Server = localhost; Port = 8000;Database = ToDoAgendaDb ; user Id = postgres; Password=123456Aa*;");
+                optionsBuilder.UseNpgsql("Server = localhost; Port = 8001;Database = ToDoAgendaDb2 ; user Id = postgres; Password=123456Aa*;");
             }
         }
 
@@ -45,9 +44,28 @@ namespace ToDoAgenda.DataAccess.Concrete.EntityFrameworkCore
 
 
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-        }
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<Task>()
+        //        .HasOne(t => t.Timer)
+        //        .WithOne(ta => ta.Task)
+        //        .HasForeignKey<Task>(t => t.TimerId);
+
+        //    modelBuilder.Entity<Task>()
+        //        .HasOne(i => i.ImportanceLevel)
+        //        .WithOne(ta => ta.Task)
+        //        .HasForeignKey<Task>(i => i.ImportanceLevelId);
+
+        //    modelBuilder.Entity<Task>()
+        //        .HasOne(r => r.Result)
+        //        .WithOne(ta => ta.Task)
+        //        .HasForeignKey<Task>(r => r.ResultId);
+
+
+        //    base.OnModelCreating(modelBuilder);
+        //}
+
+
+
     }
 }

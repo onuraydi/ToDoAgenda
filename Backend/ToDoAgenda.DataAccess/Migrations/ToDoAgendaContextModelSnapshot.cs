@@ -30,6 +30,10 @@ namespace ToDoAgenda.DataAccess.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("DefinedTaskId"));
 
+                    b.Property<string>("DefinedTaskName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.HasKey("DefinedTaskId");
 
                     b.ToTable("DefinedTasks");
@@ -98,6 +102,12 @@ namespace ToDoAgenda.DataAccess.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("TaskId"));
 
+                    b.Property<int>("ImportanceLevelId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("ResultId")
+                        .HasColumnType("integer");
+
                     b.Property<string>("TaskDescription")
                         .IsRequired()
                         .HasColumnType("text");
@@ -106,7 +116,16 @@ namespace ToDoAgenda.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<int>("TimerId")
+                        .HasColumnType("integer");
+
                     b.HasKey("TaskId");
+
+                    b.HasIndex("ImportanceLevelId");
+
+                    b.HasIndex("ResultId");
+
+                    b.HasIndex("TimerId");
 
                     b.ToTable("Tasks");
                 });
@@ -153,6 +172,33 @@ namespace ToDoAgenda.DataAccess.Migrations
                     b.HasKey("UserId");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("TODoAgenda.Entities.Concrete.Task", b =>
+                {
+                    b.HasOne("TODoAgenda.Entities.Concrete.ImportanceLevel", "ImportanceLevel")
+                        .WithMany()
+                        .HasForeignKey("ImportanceLevelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TODoAgenda.Entities.Concrete.Result", "Result")
+                        .WithMany()
+                        .HasForeignKey("ResultId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TODoAgenda.Entities.Concrete.Timer", "Timer")
+                        .WithMany()
+                        .HasForeignKey("TimerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ImportanceLevel");
+
+                    b.Navigation("Result");
+
+                    b.Navigation("Timer");
                 });
 #pragma warning restore 612, 618
         }

@@ -15,6 +15,8 @@ using ToDoAgenda.Business.Abstract.ImportanceLevelServices;
 using ToDoAgenda.Business.Concrete.Managers.ImportanceLevelManagers;
 using ToDoAgenda.Business.Abstract.DefinedTaskServices;
 using ToDoAgenda.Business.Concrete.Managers.DefinedTaskManagers;
+using Microsoft.EntityFrameworkCore;
+using ToDoAgenda.DataAccess.Concrete.EntityFrameworkCore;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +24,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 builder.Services.AddControllers();
+
+
+builder.Services.AddDbContext<ToDoAgendaContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 
 // Dependency injeciton ile farklý birþeyler yapýlabilir mi araþtýr ve uygula

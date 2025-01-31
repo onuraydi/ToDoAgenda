@@ -10,5 +10,6 @@ namespace ToDoAgenda.DataAccess.Abstract.ForEntity
 {
     public interface ITaskDal : IEntityRepository<Task>
     {
+        Task<List<Task>> GetAllWithAllDetail();
     }
 }

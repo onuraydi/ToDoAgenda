@@ -18,6 +18,9 @@ public class AddTaskTest
 
         task.TaskName = "Deneme Görevi";
         task.TaskDescription = "Burada DataAcces katmanýnda yazdýðýmýz generic metotlarý test ediyoruz. Businessda ise manager sýnýflarýnda yazdýðýmýz metotlarý test edeciðiz.";
+        task.TimerId = 1;
+        task.ResultId = 1;
+        task.ImportanceLevelId = 1;
         
         await taskDal.Add(task);
 
