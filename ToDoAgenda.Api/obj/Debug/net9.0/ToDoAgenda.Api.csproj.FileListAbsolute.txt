@@ -112,3 +112,6 @@ C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\ToDoAgenda.Api\obj\Debug\net9.0
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\ToDoAgenda.Api\obj\Debug\net9.0\ToDoAgenda.Api.pdb
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\ToDoAgenda.Api\obj\Debug\net9.0\ToDoAgenda.Api.genruntimeconfig.cache
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\ToDoAgenda.Api\obj\Debug\net9.0\ref\ToDoAgenda.Api.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\ToDoAgenda.Api\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\ToDoAgenda.Api\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\ToDoAgenda.Api\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll

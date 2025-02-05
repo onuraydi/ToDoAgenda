@@ -17,6 +17,9 @@ using ToDoAgenda.Business.Abstract.DefinedTaskServices;
 using ToDoAgenda.Business.Concrete.Managers.DefinedTaskManagers;
 using Microsoft.EntityFrameworkCore;
 using ToDoAgenda.DataAccess.Concrete.EntityFrameworkCore;
+using FluentValidation;
+using TODoAgenda.Entities.Concrete;
+using ToDoAgenda.Business.ValidationRules.FluentValidation;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -53,6 +56,7 @@ builder.Services.AddScoped<IImportanceLevelService, ImportanceLevelManager>();
 
 builder.Services.AddScoped<IDefinedTaskDal, EfCoreDefinedTaskDal>();
 builder.Services.AddScoped<IDefinedTaskService, DefinedTaskManager>();
+builder.Services.AddScoped<IValidator<DefinedTask>, DefinedTaskValidator>();
 
 /////////////////////////////////////////////////////////////////////////////////////
 

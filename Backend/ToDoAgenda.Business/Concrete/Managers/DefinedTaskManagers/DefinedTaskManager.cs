@@ -20,7 +20,6 @@ namespace ToDoAgenda.Business.Concrete.Managers.DefinedTaskManagers
             _definedTaskDal = definedTaskDal;
             _mapper = mapper;
         }
-
         public async Task<DefinedTask> Add(DefinedTask definedTask)
         {
             return await _definedTaskDal.Add(definedTask);
