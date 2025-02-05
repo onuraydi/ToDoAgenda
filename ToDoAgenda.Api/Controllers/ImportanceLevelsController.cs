@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ToDoAgenda.Business.Abstract.ImportanceLevelServices;
 using TODoAgenda.Entities.Concrete;
@@ -10,10 +11,12 @@ namespace ToDoAgenda.Api.Controllers
     public class ImportanceLevelsController : ControllerBase
     {
         private readonly IImportanceLevelService _importanceLevelService;
+        private readonly IValidator<ImportanceLevel> _validator;
 
-        public ImportanceLevelsController(IImportanceLevelService importanceLevelService)
+        public ImportanceLevelsController(IImportanceLevelService importanceLevelService, IValidator<ImportanceLevel> validator)
         {
             _importanceLevelService = importanceLevelService;
+            _validator = validator;
         }
 
         [HttpGet]
@@ -33,6 +36,12 @@ namespace ToDoAgenda.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(ImportanceLevel importanceLevel)
         {
+            var validationResult = await _validator.ValidateAsync(importanceLevel);
+            
+            if(!validationResult.IsValid)
+            {
+                return BadRequest(validationResult);
+            }
             var values = await _importanceLevelService.Add(importanceLevel);
             return Ok(values);
         }
@@ -40,6 +49,12 @@ namespace ToDoAgenda.Api.Controllers
         [HttpPut]
         public async Task<IActionResult> Update(ImportanceLevel importanceLevel)
         {
+            var validationResult = await _validator.ValidateAsync(importanceLevel);
+
+            if(!validationResult.IsValid)
+            {
+                return BadRequest(validationResult);
+            }
             var values = await _importanceLevelService.Update(importanceLevel);
             return Ok(values);
         }

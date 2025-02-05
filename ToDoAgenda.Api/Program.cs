@@ -53,6 +53,7 @@ builder.Services.AddScoped<IResultService,ResultManager>();
 
 builder.Services.AddScoped<IImportanceLevelDal, EfCoreImportanceLevelDal>();
 builder.Services.AddScoped<IImportanceLevelService, ImportanceLevelManager>();
+builder.Services.AddScoped<IValidator<ImportanceLevel>, ImportanceLevelValidator>();
 
 builder.Services.AddScoped<IDefinedTaskDal, EfCoreDefinedTaskDal>();
 builder.Services.AddScoped<IDefinedTaskService, DefinedTaskManager>();
