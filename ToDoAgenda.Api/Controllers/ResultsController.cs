@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ToDoAgenda.Business.Abstract.ResutlServices;
 using TODoAgenda.Entities.Concrete;
@@ -10,10 +11,11 @@ namespace ToDoAgenda.Api.Controllers
     public class ResultsController : ControllerBase
     {
         private readonly IResultService _resultService;
-
-        public ResultsController(IResultService resultService)
+        private readonly IValidator<Result> _validator;
+        public ResultsController(IResultService resultService, IValidator<Result> validator)
         {
             _resultService = resultService;
+            _validator = validator;
         }
 
         [HttpGet]
@@ -33,6 +35,12 @@ namespace ToDoAgenda.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(Result result)
         {
+            var validationResult = await _validator.ValidateAsync(result);
+
+            if (!validationResult.IsValid)
+            {
+                return BadRequest(validationResult);
+            }
             var values = await _resultService.Add(result);
             return Ok(values);
         }
@@ -40,6 +48,12 @@ namespace ToDoAgenda.Api.Controllers
         [HttpPut]
         public async Task<IActionResult> Update(Result result)
         {
+            var validationResult = await _validator.ValidateAsync(result);
+
+            if(!validationResult.IsValid)
+            {
+                return BadRequest(validationResult);
+            }
             var values = await _resultService.Update(result);
             return Ok(values);
         }

@@ -50,6 +50,7 @@ builder.Services.AddScoped<ISettingService, SettingManager>();
 
 builder.Services.AddScoped<IResultDal, EfCoreResultDal>();
 builder.Services.AddScoped<IResultService,ResultManager>();
+builder.Services.AddScoped<IValidator<Result>, ResultValidator>();
 
 builder.Services.AddScoped<IImportanceLevelDal, EfCoreImportanceLevelDal>();
 builder.Services.AddScoped<IImportanceLevelService, ImportanceLevelManager>();

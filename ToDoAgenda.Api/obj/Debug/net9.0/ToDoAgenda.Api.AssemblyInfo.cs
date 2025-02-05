@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDoAgenda.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d15e87c391c3c4ee6e9912abd8743928bf829ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65533deb9280db6894bcee881a7bb4cbb6e71248")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDoAgenda.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDoAgenda.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
