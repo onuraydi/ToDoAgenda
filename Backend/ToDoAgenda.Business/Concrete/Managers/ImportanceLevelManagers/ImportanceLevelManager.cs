@@ -39,7 +39,7 @@ namespace ToDoAgenda.Business.Concrete.Managers.ImportanceLevelManagers
 
         public async Task<ImportanceLevel> GetById(int id)
         {
-            return await _importanceLevelDal.Get(x => x.ImportanceLevelId == id);
+            return await _importanceLevelDal.Get(x => x.importanceLevelId == id);
         }
 
         public async Task<ImportanceLevel> Update(ImportanceLevel importanceLevel)

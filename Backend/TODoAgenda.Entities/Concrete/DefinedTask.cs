@@ -9,9 +9,11 @@ namespace TODoAgenda.Entities.Concrete
 {
     public class DefinedTask:IEntity
     {
-        // bu kısım muhtemelen kalkacak
         public int DefinedTaskId { get; set; }
-        public string DefinedTaskName { get; set; }
+        public Task task { get; set; }
+        public Result result { get; set; }
+        public Timer timer { get; set; }
+        public ImportanceLevel importanceLevel { get; set; }
 
     }
 }

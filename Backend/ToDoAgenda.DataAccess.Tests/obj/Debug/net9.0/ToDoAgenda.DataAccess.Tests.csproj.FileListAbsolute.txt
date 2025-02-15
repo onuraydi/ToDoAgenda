@@ -228,15 +228,6 @@ C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.T
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Testing.Extensions.Telemetry.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Testing.Extensions.TrxReport.Abstractions.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Testing.Extensions.VSTestBridge.dll
@@ -410,3 +401,6 @@ C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.T
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\obj\Debug\net9.0\ToDoAgenda.DataAccess.Tests.pdb
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\obj\Debug\net9.0\ToDoAgenda.DataAccess.Tests.genruntimeconfig.cache
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\obj\Debug\net9.0\ref\ToDoAgenda.DataAccess.Tests.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll

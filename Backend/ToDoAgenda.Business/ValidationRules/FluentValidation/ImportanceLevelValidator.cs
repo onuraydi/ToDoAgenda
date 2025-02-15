@@ -12,9 +12,8 @@ namespace ToDoAgenda.Business.ValidationRules.FluentValidation
     {
         public ImportanceLevelValidator() 
         {
-            RuleFor(x => x.ImportanceLevelId).NotNull().WithMessage("Önem derecesi kısmının ID değeri null olamaz");
-            RuleFor(x => x.ImportanceLevelDegree).InclusiveBetween(1, 5).WithMessage("Önem derecesi 1-5 arası olabilir.");
-            RuleFor(x => x.ImportanceLevelDegree).NotNull().NotEmpty().WithMessage("Önem derecesi Kısmı mutlaka olmalı!");
+            RuleFor(x => x.importanceLevelId).NotNull().WithMessage("Önem derecesi kısmının ID değeri null olamaz");
+            RuleFor(x => x.importanceLevelDegree).NotNull().NotEmpty().WithMessage("Önem derecesi Kısmı mutlaka olmalı!");
         }
     }
 }

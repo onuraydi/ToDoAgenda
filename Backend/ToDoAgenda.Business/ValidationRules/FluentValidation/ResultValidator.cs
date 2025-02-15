@@ -12,13 +12,8 @@ namespace ToDoAgenda.Business.ValidationRules.FluentValidation
     {
         public ResultValidator() 
         {
-            RuleFor(x => x.ResultId).NotNull().WithMessage("Sonuçların ID değeri boş olamaz.");
-            RuleFor(x => x.ResultType).NotNull().NotEmpty().WithMessage("Sonuç tipi değeri boş olamaz.");
-            RuleFor(x => x.ResultType).Length(3, 30).WithMessage("Sonuç tipi minimum 3, maksimum 30 karakter olabilir.");
-            RuleFor(x => x.TrueCount).NotNull().NotEmpty().WithMessage("Doğru sayısı boş bırakılamaz.");
-            RuleFor(x => x.TrueCount).GreaterThanOrEqualTo(0).WithMessage("Doğru sayısı 0'a eşit ya da büyük olmalı.");
-            RuleFor(x => x.FalseCount).NotNull().NotEmpty().WithMessage("Yanlış sayısı boş bırakılamaz");
-            RuleFor(x => x.FalseCount).GreaterThanOrEqualTo(0).WithMessage("YAnlış sayısı 0'a eşit ya da büyük olmalı.");
+            RuleFor(x => x.resultId).NotNull().WithMessage("Sonuçların ID değeri boş olamaz.");
+            RuleFor(x => x.resultType).NotNull().NotEmpty().WithMessage("Sonuç tipi değeri boş olamaz.");
             // net sayısını otomatik hesaplayacak
         }
     }

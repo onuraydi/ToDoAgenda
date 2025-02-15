@@ -5,16 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ToDoAgenda.Core.Entities;
+using TODoAgenda.Entities.Concrete.ResultEntities;
 
 namespace TODoAgenda.Entities.Concrete
 {
     public class Result:IEntity
     {
-        public int ResultId { get; set; }
-        public string ResultType { get; set; }  // string değiştirilecek ya da burası kaldırılacak deneme, test olarak 
-        public int TrueCount { get; set; }
-        public int FalseCount { get; set; }
-        public double TotalNetCount { get; set; }  // kaç yanlış doğruyu götürüyor ayarlardan ayarlansın
-        //public Task Task { get; set; }
+        public int resultId { get; set; }
+        public ResultType resultType { get; set; }  
+
     }
 }

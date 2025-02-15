@@ -39,7 +39,7 @@ namespace ToDoAgenda.Business.Concrete.Managers.TimerManagers
 
         public async Task<Timer> GetById(int id)
         {
-            return await _timerDal.Get(x => x.TimerId == id);
+            return await _timerDal.Get(x => x.timerId == id);
         }
 
         public async Task<Timer> Update(Timer timer)
