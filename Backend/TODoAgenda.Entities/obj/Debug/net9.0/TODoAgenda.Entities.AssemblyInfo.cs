@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TODoAgenda.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e499740266d92d3a27a7c174e667086f6867ae50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2da81c8abd92970321e1a716ae6ccb602d1afec0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TODoAgenda.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TODoAgenda.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
