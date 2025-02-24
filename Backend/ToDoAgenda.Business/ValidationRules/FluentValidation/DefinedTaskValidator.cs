@@ -13,7 +13,6 @@ namespace ToDoAgenda.Business.ValidationRules.FluentValidation
         public DefinedTaskValidator() 
         {
             RuleFor(dt => dt.DefinedTaskId).NotNull().WithMessage("Tanımlanan görevin mutlaka ID değeri olmalı!"); 
-            RuleFor(dt => dt.DefinedTaskName).NotNull().NotEmpty().WithMessage("Tanımlanan görevin mutlaka adı olmalı!");
 
 
             // kullanılırsa diğer validationlar eklenebilir.

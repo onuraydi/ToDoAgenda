@@ -30,55 +30,200 @@ namespace ToDoAgenda.DataAccess.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("DefinedTaskId"));
 
-                    b.Property<string>("DefinedTaskName")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<int>("importanceLevelId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("resultId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("taskId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("timerId")
+                        .HasColumnType("integer");
 
                     b.HasKey("DefinedTaskId");
+
+                    b.HasIndex("importanceLevelId");
+
+                    b.HasIndex("resultId");
+
+                    b.HasIndex("taskId");
+
+                    b.HasIndex("timerId");
 
                     b.ToTable("DefinedTasks");
                 });
 
             modelBuilder.Entity("TODoAgenda.Entities.Concrete.ImportanceLevel", b =>
                 {
-                    b.Property<int>("ImportanceLevelId")
+                    b.Property<int>("importanceLevelId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ImportanceLevelId"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("importanceLevelId"));
 
-                    b.Property<int>("ImportanceLevelDegree")
+                    b.Property<int>("importanceLevelDegree")
                         .HasColumnType("integer");
 
-                    b.HasKey("ImportanceLevelId");
+                    b.HasKey("importanceLevelId");
 
                     b.ToTable("ImportanceLevels");
                 });
 
             modelBuilder.Entity("TODoAgenda.Entities.Concrete.Result", b =>
                 {
-                    b.Property<int>("ResultId")
+                    b.Property<int>("resultId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ResultId"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("resultId"));
 
-                    b.Property<int>("FalseCount")
+                    b.Property<int>("resultTypeId")
                         .HasColumnType("integer");
 
-                    b.Property<string>("ResultType")
+                    b.HasKey("resultId");
+
+                    b.HasIndex("resultTypeId");
+
+                    b.ToTable("Results");
+                });
+
+            modelBuilder.Entity("TODoAgenda.Entities.Concrete.ResultEntities.ResultType", b =>
+                {
+                    b.Property<int>("resultTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("resultTypeId"));
+
+                    b.Property<int>("examTrialId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("netId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("otherTypeId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("testQuestionId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("themeId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("resultTypeId");
+
+                    b.HasIndex("examTrialId");
+
+                    b.HasIndex("netId");
+
+                    b.HasIndex("otherTypeId");
+
+                    b.HasIndex("testQuestionId");
+
+                    b.HasIndex("themeId");
+
+                    b.ToTable("ResultTypes");
+                });
+
+            modelBuilder.Entity("TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes.ExamTrial", b =>
+                {
+                    b.Property<int>("examTrialId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("examTrialId"));
+
+                    b.Property<int>("netId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("examTrialId");
+
+                    b.HasIndex("netId");
+
+                    b.ToTable("ExamTrial");
+                });
+
+            modelBuilder.Entity("TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes.Net", b =>
+                {
+                    b.Property<int>("netId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("netId"));
+
+                    b.Property<int>("falseCount")
+                        .HasColumnType("integer");
+
+                    b.Property<float>("totalNet")
+                        .HasColumnType("real");
+
+                    b.Property<int>("totalQuestionCount")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("trueCount")
+                        .HasColumnType("integer");
+
+                    b.HasKey("netId");
+
+                    b.ToTable("Net");
+                });
+
+            modelBuilder.Entity("TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes.OtherType", b =>
+                {
+                    b.Property<int>("otherTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("otherTypeId"));
+
+                    b.Property<string>("description")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<double>("TotalNetCount")
-                        .HasColumnType("double precision");
+                    b.HasKey("otherTypeId");
 
-                    b.Property<int>("TrueCount")
+                    b.ToTable("OtherType");
+                });
+
+            modelBuilder.Entity("TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes.TestQuestion", b =>
+                {
+                    b.Property<int>("testQuestionId")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    b.HasKey("ResultId");
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("testQuestionId"));
 
-                    b.ToTable("Results");
+                    b.Property<int>("falseCount")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("totalQuestionCount")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("trueCount")
+                        .HasColumnType("integer");
+
+                    b.HasKey("testQuestionId");
+
+                    b.ToTable("TestQuestion");
+                });
+
+            modelBuilder.Entity("TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes.Theme", b =>
+                {
+                    b.Property<int>("themeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("themeId"));
+
+                    b.Property<string>("themeDescription")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("themeId");
+
+                    b.ToTable("Theme");
                 });
 
             modelBuilder.Entity("TODoAgenda.Entities.Concrete.Setting", b =>
@@ -96,55 +241,43 @@ namespace ToDoAgenda.DataAccess.Migrations
 
             modelBuilder.Entity("TODoAgenda.Entities.Concrete.Task", b =>
                 {
-                    b.Property<int>("TaskId")
+                    b.Property<int>("taskId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("TaskId"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("taskId"));
 
-                    b.Property<int>("ImportanceLevelId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("ResultId")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("TaskDescription")
+                    b.Property<string>("taskDescription")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("TaskName")
+                    b.Property<string>("taskName")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("TimerId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("TaskId");
-
-                    b.HasIndex("ImportanceLevelId");
-
-                    b.HasIndex("ResultId");
-
-                    b.HasIndex("TimerId");
+                    b.HasKey("taskId");
 
                     b.ToTable("Tasks");
                 });
 
             modelBuilder.Entity("TODoAgenda.Entities.Concrete.Timer", b =>
                 {
-                    b.Property<int>("TimerId")
+                    b.Property<int>("timerId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("TimerId"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("timerId"));
 
-                    b.Property<TimeSpan>("CompleteTime")
+                    b.Property<TimeSpan>("completeTime")
                         .HasColumnType("interval");
 
                     b.Property<TimeSpan>("targetTime")
                         .HasColumnType("interval");
 
-                    b.HasKey("TimerId");
+                    b.Property<TimeSpan>("totalBreakTime")
+                        .HasColumnType("interval");
+
+                    b.HasKey("timerId");
 
                     b.ToTable("Timers");
                 });
@@ -174,31 +307,107 @@ namespace ToDoAgenda.DataAccess.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("TODoAgenda.Entities.Concrete.Task", b =>
+            modelBuilder.Entity("TODoAgenda.Entities.Concrete.DefinedTask", b =>
                 {
-                    b.HasOne("TODoAgenda.Entities.Concrete.ImportanceLevel", "ImportanceLevel")
+                    b.HasOne("TODoAgenda.Entities.Concrete.ImportanceLevel", "importanceLevel")
                         .WithMany()
-                        .HasForeignKey("ImportanceLevelId")
+                        .HasForeignKey("importanceLevelId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TODoAgenda.Entities.Concrete.Result", "Result")
+                    b.HasOne("TODoAgenda.Entities.Concrete.Result", "result")
                         .WithMany()
-                        .HasForeignKey("ResultId")
+                        .HasForeignKey("resultId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TODoAgenda.Entities.Concrete.Timer", "Timer")
+                    b.HasOne("TODoAgenda.Entities.Concrete.Task", "task")
                         .WithMany()
-                        .HasForeignKey("TimerId")
+                        .HasForeignKey("taskId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("ImportanceLevel");
+                    b.HasOne("TODoAgenda.Entities.Concrete.Timer", "timer")
+                        .WithMany()
+                        .HasForeignKey("timerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Navigation("Result");
+                    b.Navigation("importanceLevel");
 
-                    b.Navigation("Timer");
+                    b.Navigation("result");
+
+                    b.Navigation("task");
+
+                    b.Navigation("timer");
+                });
+
+            modelBuilder.Entity("TODoAgenda.Entities.Concrete.Result", b =>
+                {
+                    b.HasOne("TODoAgenda.Entities.Concrete.ResultEntities.ResultType", null)
+                        .WithMany("results")
+                        .HasForeignKey("resultTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("TODoAgenda.Entities.Concrete.ResultEntities.ResultType", b =>
+                {
+                    b.HasOne("TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes.ExamTrial", "examTrial")
+                        .WithMany()
+                        .HasForeignKey("examTrialId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes.Net", "net")
+                        .WithMany()
+                        .HasForeignKey("netId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes.OtherType", "otherType")
+                        .WithMany()
+                        .HasForeignKey("otherTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes.TestQuestion", "testQuestion")
+                        .WithMany()
+                        .HasForeignKey("testQuestionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes.Theme", "theme")
+                        .WithMany()
+                        .HasForeignKey("themeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("examTrial");
+
+                    b.Navigation("net");
+
+                    b.Navigation("otherType");
+
+                    b.Navigation("testQuestion");
+
+                    b.Navigation("theme");
+                });
+
+            modelBuilder.Entity("TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes.ExamTrial", b =>
+                {
+                    b.HasOne("TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes.Net", "net")
+                        .WithMany()
+                        .HasForeignKey("netId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("net");
+                });
+
+            modelBuilder.Entity("TODoAgenda.Entities.Concrete.ResultEntities.ResultType", b =>
+                {
+                    b.Navigation("results");
                 });
 #pragma warning restore 612, 618
         }

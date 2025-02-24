@@ -9,9 +9,9 @@ namespace TODoAgenda.Entities.Concrete
 {
     public class Timer:IEntity
     {
-        public int TimerId { get; set; }
+        public int timerId { get; set; }
         public TimeSpan targetTime { get; set; }
-        public TimeSpan CompleteTime { get; set; }
-        //public Task Task { get; set; }
+        public TimeSpan completeTime { get; set; }
+        public TimeSpan totalBreakTime { get; set; } = TimeSpan.Zero;    // default olarak sıfır değerini atadık
     }
 }

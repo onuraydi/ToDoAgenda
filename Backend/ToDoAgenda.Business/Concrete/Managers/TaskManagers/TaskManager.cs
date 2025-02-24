@@ -23,8 +23,6 @@ namespace ToDoAgenda.Business.Concrete.Managers.TaskManagers
 
         public async Task<Task> Add(Task task)
         {
-            TimeSpan.TryParse(task.Timer.targetTime.ToString(), out TimeSpan resultTargetTime);
-            TimeSpan.TryParse(task.Timer.CompleteTime.ToString(), out TimeSpan resultCompleteTime);
             return await _taskDal.Add(task);
         }
 
@@ -35,13 +33,13 @@ namespace ToDoAgenda.Business.Concrete.Managers.TaskManagers
 
         public async Task<List<Task>> GetAll()
         {
-            var values = await _taskDal.GetAllWithAllDetail();   // bu metot ilişkilerin düzgün gelmesi için DataAccess katmanında yazıldı acaba kod bütünlüğünü tehlikeye atıyor mu ve daha iyi bir yolla yapmak istediğimi yapabilir miyim?
+            var values = await _taskDal.GetAll();   // bu metot ilişkilerin düzgün gelmesi için DataAccess katmanında yazıldı acaba kod bütünlüğünü tehlikeye atıyor mu ve daha iyi bir yolla yapmak istediğimi yapabilir miyim?
             return _mapper.Map<List<Task>>(values);
         }
 
         public async Task<Task> GetById(int id)
         {
-            return await _taskDal.GetWithAllDetail(x => x.TaskId == id);
+            return await _taskDal.Get(x => x.taskId== id);
         }
 
         //public async Task<Task> GetByName(string name)

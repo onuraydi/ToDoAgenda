@@ -25,23 +25,23 @@ namespace ToDoAgenda.DataAccess.Concrete.EntityFrameworkCore.ForEntity
             _context = context;
         }
 
-        public async Task<List<Task>> GetAllWithAllDetail()
-        {
-            return await _context.Tasks
-                .Include(t => t.Timer)
-                .Include(t => t.Result)
-                .Include(t => t.ImportanceLevel)
-                .AsNoTracking()
-                .ToListAsync();
-        }
+        //public async Task<List<Task>> GetAllWithAllDetail()
+        //{
+        //    return await _context.Tasks
+        //        .Include(t => t.Timer)
+        //        .Include(t => t.Result)
+        //        .Include(t => t.ImportanceLevel)
+        //        .AsNoTracking()
+        //        .ToListAsync();
+        //}
 
-        public async Task<Task> GetWithAllDetail(Expression<Func<Task, bool>> filter)
-        {
-            return await _context.Tasks
-                .Include(t => t.Timer)
-                .Include(t => t.Result)
-                .Include(t => t.ImportanceLevel)
-                .AsNoTracking().SingleOrDefaultAsync(filter);
-        }
+        //public async Task<Task> GetWithAllDetail(Expression<Func<Task, bool>> filter)
+        //{
+        //    return await _context.Tasks
+        //        .Include(t => t.Timer)
+        //        .Include(t => t.Result)
+        //        .Include(t => t.ImportanceLevel)
+        //        .AsNoTracking().SingleOrDefaultAsync(filter);
+        //}
     }
 }
