@@ -2317,6 +2317,19 @@
           "bin/placeholder/ToDoAgenda.Core.dll": {}
         }
       },
+      "ToDoAgenda.DTOLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "ToDoAgenda.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ToDoAgenda.DTOLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDoAgenda.DTOLayer.dll": {}
+        }
+      },
       "TODoAgenda.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -7595,6 +7608,11 @@
       "path": "../ToDoAgenda.Core/ToDoAgenda.Core.csproj",
       "msbuildProject": "../ToDoAgenda.Core/ToDoAgenda.Core.csproj"
     },
+    "ToDoAgenda.DTOLayer/1.0.0": {
+      "type": "project",
+      "path": "../ToDoAgenda.DTOLayer/ToDoAgenda.DTOLayer.csproj",
+      "msbuildProject": "../ToDoAgenda.DTOLayer/ToDoAgenda.DTOLayer.csproj"
+    },
     "TODoAgenda.Entities/1.0.0": {
       "type": "project",
       "path": "../TODoAgenda.Entities/TODoAgenda.Entities.csproj",
@@ -7606,7 +7624,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
       "Microsoft.Extensions.Configuration.Abstractions >= 9.0.0",
       "TODoAgenda.Entities >= 1.0.0",
-      "ToDoAgenda.Core >= 1.0.0"
+      "ToDoAgenda.Core >= 1.0.0",
+      "ToDoAgenda.DTOLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7645,6 +7664,9 @@
           "projectReferences": {
             "C:\\Users\\ONUR\\Desktop\\CurrentProjects\\ToDoAgenda\\Backend\\ToDoAgenda.Core\\ToDoAgenda.Core.csproj": {
               "projectPath": "C:\\Users\\ONUR\\Desktop\\CurrentProjects\\ToDoAgenda\\Backend\\ToDoAgenda.Core\\ToDoAgenda.Core.csproj"
+            },
+            "C:\\Users\\ONUR\\Desktop\\CurrentProjects\\ToDoAgenda\\Backend\\ToDoAgenda.DTOLayer\\ToDoAgenda.DTOLayer.csproj": {
+              "projectPath": "C:\\Users\\ONUR\\Desktop\\CurrentProjects\\ToDoAgenda\\Backend\\ToDoAgenda.DTOLayer\\ToDoAgenda.DTOLayer.csproj"
             },
             "C:\\Users\\ONUR\\Desktop\\CurrentProjects\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj": {
               "projectPath": "C:\\Users\\ONUR\\Desktop\\CurrentProjects\\ToDoAgenda\\Backend\\TODoAgenda.Entities\\TODoAgenda.Entities.csproj"

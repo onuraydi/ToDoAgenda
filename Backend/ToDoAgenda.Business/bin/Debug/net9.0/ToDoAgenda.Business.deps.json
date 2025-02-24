@@ -1480,7 +1480,8 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
           "TODoAgenda.Entities": "1.0.0",
-          "ToDoAgenda.Core": "1.0.0"
+          "ToDoAgenda.Core": "1.0.0",
+          "ToDoAgenda.DTOLayer": "1.0.0"
         },
         "runtime": {
           "ToDoAgenda.DataAccess.dll": {
@@ -1497,7 +1498,6 @@
           "NUnit": "4.2.2",
           "NUnit.Analyzers": "4.3.0",
           "NUnit3TestAdapter": "4.6.0",
-          "ToDoAgenda.DataAccess": "1.0.0",
           "coverlet.collector": "6.0.2"
         },
         "runtime": {

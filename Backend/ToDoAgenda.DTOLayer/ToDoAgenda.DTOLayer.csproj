@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ToDoAgenda.Core\ToDoAgenda.Core.csproj" />
-    <ProjectReference Include="..\ToDoAgenda.DataAccess.Tests\ToDoAgenda.DataAccess.Tests.csproj" />
   </ItemGroup>
 
 </Project>

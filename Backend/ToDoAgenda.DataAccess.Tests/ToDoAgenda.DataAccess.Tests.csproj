@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ToDoAgenda.DataAccess\ToDoAgenda.DataAccess.csproj" />
+   
   </ItemGroup>
 
   <ItemGroup>

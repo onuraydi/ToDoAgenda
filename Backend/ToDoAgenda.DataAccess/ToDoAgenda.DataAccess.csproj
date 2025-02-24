@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ToDoAgenda.Core\ToDoAgenda.Core.csproj" />
+    <ProjectReference Include="..\ToDoAgenda.DTOLayer\ToDoAgenda.DTOLayer.csproj" />
     <ProjectReference Include="..\TODoAgenda.Entities\TODoAgenda.Entities.csproj" />
   </ItemGroup>
 
