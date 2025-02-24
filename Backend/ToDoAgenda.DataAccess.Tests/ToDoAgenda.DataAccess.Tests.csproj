@@ -19,7 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ToDoAgenda.Business\ToDoAgenda.Business.csproj" />
     <ProjectReference Include="..\ToDoAgenda.DataAccess\ToDoAgenda.DataAccess.csproj" />
   </ItemGroup>
 

@@ -11,7 +11,7 @@ namespace ToDoAgenda.DataAccess.Abstract.ForEntity
 {
     public interface ITaskDal : IEntityRepository<Task>
     {
-        Task<List<Task>> GetAllWithAllDetail();
-        Task<Task> GetWithAllDetail(Expression<Func<Task, bool>> filter);
+        //Task<List<Task>> GetAllWithAllDetail();
+        //Task<Task> GetWithAllDetail(Expression<Func<Task, bool>> filter);
     }
 }

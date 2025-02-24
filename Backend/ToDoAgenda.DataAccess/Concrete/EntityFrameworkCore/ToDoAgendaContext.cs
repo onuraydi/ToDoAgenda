@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TODoAgenda.Entities.Concrete;
+using TODoAgenda.Entities.Concrete.ResultEntities;
 using Task = TODoAgenda.Entities.Concrete.Task;
 using Timer = TODoAgenda.Entities.Concrete.Timer;
 
@@ -30,7 +31,8 @@ namespace ToDoAgenda.DataAccess.Concrete.EntityFrameworkCore
             if (!optionsBuilder.IsConfigured)
             {
                 //var connectionString = _configuration.GetConnectionString("DefaultConnection");
-                optionsBuilder.UseNpgsql("Server = localhost; Port = 8001;Database = ToDoAgendaDb2 ; user Id = postgres; Password=123456Aa*;");
+                //optionsBuilder.UseNpgsql("Server = localhost; Port = 8001;Database = ToDoAgendaDb2 ; user Id = postgres; Password=123456Aa*;");
+                optionsBuilder.UseNpgsql("Server = localhost; Port = 8000;Database = ToDoAgendaDb ; user Id = postgres; Password=123456Aa*;");
             }
         }
 
@@ -39,31 +41,16 @@ namespace ToDoAgenda.DataAccess.Concrete.EntityFrameworkCore
         public DbSet<Task> Tasks { get; set; }
         public DbSet<Setting> Settings { get; set; }
         public DbSet<Result> Results { get; set; }
+        public DbSet<ResultType> ResultTypes { get; set; }
         public DbSet<ImportanceLevel> ImportanceLevels { get; set; }
         public DbSet<DefinedTask> DefinedTasks { get; set; }
 
 
 
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<Task>()
-        //        .HasOne(t => t.Timer)
-        //        .WithOne(ta => ta.Task)
-        //        .HasForeignKey<Task>(t => t.TimerId);
-
-        //    modelBuilder.Entity<Task>()
-        //        .HasOne(i => i.ImportanceLevel)
-        //        .WithOne(ta => ta.Task)
-        //        .HasForeignKey<Task>(i => i.ImportanceLevelId);
-
-        //    modelBuilder.Entity<Task>()
-        //        .HasOne(r => r.Result)
-        //        .WithOne(ta => ta.Task)
-        //        .HasForeignKey<Task>(r => r.ResultId);
-
-
-        //    base.OnModelCreating(modelBuilder);
-        //}
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
 
 
 

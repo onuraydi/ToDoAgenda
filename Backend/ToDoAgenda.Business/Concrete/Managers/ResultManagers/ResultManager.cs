@@ -40,7 +40,7 @@ namespace ToDoAgenda.Business.Concrete.Managers.ResultManagers
 
         public async Task<Result> GetById(int id)
         {
-            return await _resultDal.Get(x => x.ResultId == id);
+            return await _resultDal.Get(x => x.resultId == id);
         }
 
         public async Task<Result> Update(Result result)
