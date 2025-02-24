@@ -12,7 +12,10 @@ namespace TODoAgenda.Entities.Concrete
     public class Result:IEntity
     {
         public int resultId { get; set; }
-        public ResultType resultType { get; set; }  
+
+        public int resultTypeId { get; set; }
+        //public ResultType resultType { get; set; }  
 
     }
 }
+

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes
 {
-    [Keyless]
     public class OtherType
     {
+        public int otherTypeId { get; set; }
         public string description { get; set; }
     }
 }

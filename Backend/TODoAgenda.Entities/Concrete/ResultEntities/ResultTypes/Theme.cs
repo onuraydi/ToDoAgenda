@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace TODoAgenda.Entities.Concrete.ResultEntities.ResultTypes
 {
-    [Keyless]
     public class Theme
     {
+        public int themeId { get; set; }
         public string themeDescription { get; set; }
     }
 }

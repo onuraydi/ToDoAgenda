@@ -98,8 +98,8 @@ C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business.Tests\obj\Debug\net
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business.Tests\obj\Debug\net9.0\ToDoAgenda.Business.Tests.pdb
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business.Tests\obj\Debug\net9.0\ToDoAgenda.Business.Tests.genruntimeconfig.cache
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.Business.Tests\obj\Debug\net9.0\ref\ToDoAgenda.Business.Tests.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.Business.Tests\bin\Debug\net9.0\testhost.exe
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.Business.Tests\bin\Debug\net9.0\testhost.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.Business.Tests\bin\Debug\net9.0\testhost.exe
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.Business.Tests\bin\Debug\net9.0\NUnit3.TestAdapter.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.Business.Tests\bin\Debug\net9.0\NUnit3.TestAdapter.pdb
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.Business.Tests\bin\Debug\net9.0\nunit.engine.dll

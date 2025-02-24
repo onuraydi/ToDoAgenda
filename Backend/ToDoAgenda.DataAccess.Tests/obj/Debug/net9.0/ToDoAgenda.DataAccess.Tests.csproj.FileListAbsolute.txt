@@ -206,8 +206,8 @@ C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\n
 C:\Users\ONUR\Desktop\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\ToDoAgenda.Business.pdb
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_ToDoAgenda.DataAccess.Tests
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_ToDoAgenda.DataAccess.Tests
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\testhost.exe
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\testhost.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\testhost.exe
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\NUnit3.TestAdapter.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\NUnit3.TestAdapter.pdb
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\nunit.engine.dll
@@ -228,6 +228,15 @@ C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.T
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Testing.Extensions.Telemetry.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Testing.Extensions.TrxReport.Abstractions.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.Testing.Extensions.VSTestBridge.dll
@@ -380,11 +389,9 @@ C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.T
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\ToDoAgenda.Business.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\ToDoAgenda.Core.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\ToDoAgenda.DataAccess.dll
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\TODoAgenda.Entities.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\ToDoAgenda.Business.pdb
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\ToDoAgenda.DataAccess.pdb
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\ToDoAgenda.Core.pdb
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\TODoAgenda.Entities.pdb
@@ -401,6 +408,3 @@ C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.T
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\obj\Debug\net9.0\ToDoAgenda.DataAccess.Tests.pdb
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\obj\Debug\net9.0\ToDoAgenda.DataAccess.Tests.genruntimeconfig.cache
 C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\obj\Debug\net9.0\ref\ToDoAgenda.DataAccess.Tests.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\FluentValidation.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
-C:\Users\ONUR\Desktop\CurrentProjects\ToDoAgenda\Backend\ToDoAgenda.DataAccess.Tests\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll

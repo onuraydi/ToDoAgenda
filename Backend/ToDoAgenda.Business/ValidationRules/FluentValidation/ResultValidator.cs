@@ -13,7 +13,7 @@ namespace ToDoAgenda.Business.ValidationRules.FluentValidation
         public ResultValidator() 
         {
             RuleFor(x => x.resultId).NotNull().WithMessage("Sonuçların ID değeri boş olamaz.");
-            RuleFor(x => x.resultType).NotNull().NotEmpty().WithMessage("Sonuç tipi değeri boş olamaz.");
+            //RuleFor(x => x.resultType).NotNull().NotEmpty().WithMessage("Sonuç tipi değeri boş olamaz.");
             // net sayısını otomatik hesaplayacak
         }
     }

@@ -8,6 +8,15 @@
 
   <ItemGroup>
     <Folder Include="DependencyResolvers\" />
+    <Folder Include="DtoAbstract\SettingServices\" />
+    <Folder Include="DtoAbstract\UserServices\" />
+    <Folder Include="DtoConcrete\Managers\DefinedTaskManagers\" />
+    <Folder Include="DtoConcrete\Managers\ImportanceLevelManagers\" />
+    <Folder Include="DtoConcrete\Managers\UserManagers\" />
+    <Folder Include="DtoConcrete\Managers\TimerManagers\" />
+    <Folder Include="DtoConcrete\Managers\TaskManagers\" />
+    <Folder Include="DtoConcrete\Managers\SettingManagers\" />
+    <Folder Include="DtoConcrete\Managers\ResultManagers\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ToDoAgenda.DataAccess\ToDoAgenda.DataAccess.csproj" />
     <ProjectReference Include="..\TODoAgenda.Entities\TODoAgenda.Entities.csproj" />
+    <ProjectReference Include="..\ToDoAgenda.DTOLayer\ToDoAgenda.DTOLayer.csproj" />
   </ItemGroup>
 
 </Project>

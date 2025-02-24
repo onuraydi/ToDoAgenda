@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDoAgenda.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2da81c8abd92970321e1a716ae6ccb602d1afec0")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e499740266d92d3a27a7c174e667086f6867ae50")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ecdec6e1d880829a911bd4a8822512358a229f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDoAgenda.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDoAgenda.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
