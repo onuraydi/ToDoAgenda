@@ -10,8 +10,8 @@ namespace ToDoAgenda.Business.DtoAbstract.ImportanceLevelServices
     public interface IImportanceLevelDtoService
     {
         Task<List<ImportanceLevelDto>> GetAll();
-        Task<ImportanceLevelDto> GetById();
-        Task<ImportanceLevelDto> Add(ImportanceLevelWithoutIdDto importanceLevelWithoutIdDto);
+        Task<ImportanceLevelDto> GetById(int id);
+        Task<ImportanceLevelDto> Add(ImportanceLevelDto importanceLevelDto);
         Task<ImportanceLevelDto> Update(ImportanceLevelDto importanceLevelDto);
         Task Delete(ImportanceLevelDto importanceLevelDto);
     }

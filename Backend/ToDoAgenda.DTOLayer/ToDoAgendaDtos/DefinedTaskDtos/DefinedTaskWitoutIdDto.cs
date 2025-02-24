@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ToDoAgenda.Core.Dtos;
-using TODoAgenda.Entities.Concrete;
+
 
 namespace ToDoAgenda.DTOLayer.ToDoAgendaDtos.DefinedTaskDtos
 {

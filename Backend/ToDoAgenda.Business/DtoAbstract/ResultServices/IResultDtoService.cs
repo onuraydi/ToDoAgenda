@@ -11,8 +11,8 @@ namespace ToDoAgenda.Business.DtoAbstract.ResultServices
     public interface IResultDtoService
     {
         Task<List<ResultDto>> GetAll();
-        Task<ResultDto> GetById();
-        Task<ResultDto> Add(ResultWithoutIdDto resultWithoutIdDto);
+        Task<ResultDto> GetById(int id);
+        Task<ResultDto> Add(ResultDto resultDto);
         Task<ResultDto> Update(ResultDto resultDto);
         Task Delete(ResultDto resultDto);
     }

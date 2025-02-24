@@ -9,6 +9,6 @@ namespace ToDoAgenda.DTOLayer.ToDoAgendaDtos.ImportanceLevelDtos
 {
     public class ImportanceLevelWithoutIdDto:IDto
     {
-        public ImportanceDegree importanceLevelDegree { get; set; }
+        public string importanceLevelDegree { get; set; }
     }
 }

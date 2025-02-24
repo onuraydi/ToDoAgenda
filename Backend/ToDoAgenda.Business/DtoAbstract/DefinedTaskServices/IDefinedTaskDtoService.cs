@@ -10,8 +10,8 @@ namespace ToDoAgenda.Business.DtoAbstract.DefinedTaskServices
     public interface IDefinedTaskDtoService
     {
         Task<List<DefinedTaskDto>> GetAll();
-        Task<DefinedTaskDto> GetById();
-        Task<DefinedTaskDto> Add(DefinedTaskWitoutIdDto definedTaskWitoutIdDto);
+        Task<DefinedTaskDto> GetById(int id);
+        Task<DefinedTaskDto> Add(DefinedTaskDto definedTaskDto);
         Task<DefinedTaskDto> Update(DefinedTaskDto definedTaskDto);
         Task Delete(DefinedTaskDto definedTaskDto);
     }

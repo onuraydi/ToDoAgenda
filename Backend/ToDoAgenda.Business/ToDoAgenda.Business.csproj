@@ -10,7 +10,6 @@
     <Folder Include="DependencyResolvers\" />
     <Folder Include="DtoAbstract\SettingServices\" />
     <Folder Include="DtoAbstract\UserServices\" />
-    <Folder Include="DtoConcrete\Managers\DefinedTaskManagers\" />
     <Folder Include="DtoConcrete\Managers\ImportanceLevelManagers\" />
     <Folder Include="DtoConcrete\Managers\UserManagers\" />
     <Folder Include="DtoConcrete\Managers\TimerManagers\" />
